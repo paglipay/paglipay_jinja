@@ -13,11 +13,9 @@ class TestJinjaObj(unittest.TestCase):
     def test_obj(self):
         self.assertEqual(self.j.data, {}, "Should be \{\}")
 
-    @unittest.skip("WIP")
+    # @unittest.skip("WIP")
     def test_obja(self):
-        data = {}
-        # j = jo('test jo', data)
-        self.assertEqual(j.data, {}, "Should be \{\}")
+        assert self.j.data == {}, "Should be \{\}"
 
     def test_obj2(self):
         data = {}
