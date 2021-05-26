@@ -7,14 +7,9 @@ print('JinjaObj Here')
 class JinjaObj:
     def __init__(self, int_name, data={}):
         print('__init_'+int_name)
-        # super().__init__(data)
-        self.jinja_dic = []
-        self.name = int_name
-        self.json_config = []
-        self.bol = None
+        self.jinja_dic = {}
         self.data = data
-        self.out = ''
-        self.key = None
+        self.out = {}
 
     def k_func(self, str_config, v_val):
         print('k_func')
@@ -33,6 +28,7 @@ class JinjaObj:
                 jf.json_open(self, v_val)
         elif str_config == 'save_as':
             bol_config = False
+            self.data.update({v_val:self.out})      
 
         return bol_config
 

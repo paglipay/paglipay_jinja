@@ -5,13 +5,13 @@
     {
         "True": [
             {
-                "dics": "./json/cisco_actions/templates/3850_edge_9300_upgrade/aaa.json"
+                "dics": "./my_packages/JinjaObj/test.json"
             },
             {
-                "open": "./json/cisco_actions/templates/3850_edge_9300_upgrade/aaa.j2"
+                "open": "./my_packages/JinjaObj/open.j2"
             },
             {
-                "save_as": "./json/cisco_actions/templates/3850_edge_9300_upgrade/aaa.txt"
+                "save_as": "./my_packages/JinjaObj/test_out.json"
             }
         ]
     }

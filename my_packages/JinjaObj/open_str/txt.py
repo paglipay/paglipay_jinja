@@ -1,16 +1,12 @@
 import jinja2
 from jinja2 import Template
 
-print('txt here')
-# def __init__ (v_val):
-#     print('txt here')
-
 def txt_test():
     print('txt_test here')
 
 def txt_open(self, v_val):
     print('txt_open here: ', v_val)
-    self.data.update({'txt_open':v_val})
+    self.out.update({'txt_open':v_val})
     # if v_val in self.data:                        
     #     t = Template(self.data[v_val])
     # else:          
