@@ -5,7 +5,7 @@ import DTree as d
 class TestJinjaObj(unittest.TestCase):
 
     def setUp(self) -> None:
-        json_file = './start2.json'
+        json_file = './start1.json'
         flask_data = {}
         import_obj_instance = {}
         self.c = d.DTree(json.load(open(json_file)), name=json_file, import_obj_instance=import_obj_instance, data=flask_data)

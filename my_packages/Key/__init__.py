@@ -13,6 +13,6 @@ class Key:
         return bol_config
 
     def v_func(self, v_val):
-        print('v_func: ', v_val)
+        # print('v_func: ', v_val)
         self.data[self.name].append(v_val)
         return True

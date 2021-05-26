@@ -5,13 +5,13 @@
     {
         "True": [
             {
-                "dics": "./my_packages/JinjaObj/test.json"
+                "list_dics": "my_packages/JinjaObj/test_dics.json"
             },
             {
-                "open": "./my_packages/JinjaObj/open.j2"
+                "open": "_accepts_list.j2"
             },
             {
-                "save_as": "./my_packages/JinjaObj/test_out.json"
+                "save_as": "my_packages/JinjaObj/test_out.json"
             }
         ]
     }
