@@ -8,7 +8,7 @@
                 "list_dics": "my_packages/JinjaObj/test_dics.json"
             },
             {
-                "open": "_accepts_list.j2"
+                "open": "my_packages/JinjaObj/_accepts_list.j2"
             },
             {
                 "save_as": "my_packages/JinjaObj/test_out.json"

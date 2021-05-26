@@ -20,4 +20,4 @@ if __name__ == "__main__":
     pp.pprint(c.data)
 
     for i in c.data['my_packages/JinjaObj/test_out.json']:
-        print(i)
+        pp.pprint(i)

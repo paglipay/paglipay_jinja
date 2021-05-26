@@ -6,7 +6,7 @@ import pprint as pp
 from .open_str import *
 
 class JinjaObj:
-    def __init__(self, int_name, data={}):
+    def __init__(self, int_name='JinjaObj', data={}):
         # print('__init_'+int_name)
         self.jinja_dic = None
         self.data = data
